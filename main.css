@@ -28,9 +28,24 @@ header {
     right: 0;
     width: 100%;
     padding: 2em;
-    background-color: rgb(18, 180, 180);
+    background-color: transparent;
     display: flex;
     position: absolute;
+}
+
+.logo {
+    top: 4em;
+    margin-bottom: auto;
+    padding-top: 0;
+    position: absolute;
+    left: 50%;
+    color: ;
+    transform: translate(-50%, -50%);
+}
+
+.logo span {
+    color: #fff;
+    font-size: 1.4em;
 }
 
 .list__items {
@@ -109,5 +124,7 @@ input[type=number] {
 .resultado {
     margin: 0 auto;
     position: absolute;
-    bottom: 4em;
+    bottom: 2em;
+    font-size: 2.5em;
+    color: aliceblue;
 }
