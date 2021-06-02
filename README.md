@@ -1,2 +1,2 @@
 # convertor-de-moeda
-um convertor de moeda usando html, css e JavaScript  
+um conversor de moeda usando html, css, JavaScript e exchange rates API para converter e manter o valores reais e atualizados.  
