@@ -84,9 +84,8 @@ header .nav-item:nth-of-type(1) {
     display: flex;
     height: 350px;
     width: 600px;
-    background-color: cadetblue;
+    background: linear-gradient(150deg, #39ef74, #4600f1 100%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     position: absolute;
     top: 50%;
     left: 50%;
