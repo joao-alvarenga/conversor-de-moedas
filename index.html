@@ -17,26 +17,23 @@
             </ul>
         </nav>
     </header>
+    <div class="wrapper">
         <div class="container">
-            <div class="moedas">
+            <div class="convert-container-left">
                 <select name="" id="moedas_convert">
-                    <option value="AED">AED</option>
-                    <option value="ARS">ARS</option>
-                    <option value="AUD">AUD</option>
-                    <option value="BGN">BGN</option>
-                    <option value="BRL">BRL</option>
-                    <option value="BSD">BSD</option>
-                    <option value="CAD">CAD</option>
-                    <option value="CHF">CHF</option>
-                    <option value="CLP">CLP</option>
-                    <option value="CNY">CNY</option>
                     <option value="COP">COP</option>
                     <option value="CZK">CZK</option>
                     <option value="DKK">DKK</option>
+                    <option value="AED">Dirham dos Emirados Árabes Unidos</option>
+                    <option value="USD" selected>Dólar americano</option>
+                    <option value="AUD">Dolár australiano</option>
+                    <option value="BSD">Dólar bahamense</option>
+                    <option value="CAD">Dólar canadense</option>
                     <option value="DOP">DOP</option>
                     <option value="EGP">EGP</option>
-                    <option value="EUR" selected>EUR</option>
+                    <option value="EUR" selected>Euro</option>
                     <option value="FJD">FJD</option>
+                    <option value="CHF">Franco suíço</option>
                     <option value="GBP">GBP</option>
                     <option value="GTQ">GTQ</option>
                     <option value="HKD">HKD</option>
@@ -49,16 +46,21 @@
                     <option value="JPY">JPY</option>
                     <option value="KRW">KRW</option>
                     <option value="KZT">KZT</option>
+                    <option value="BGN">Lev búlgaro</option>
                     <option value="MXN">MXN</option>
                     <option value="MYR">MYR</option>
                     <option value="NOK">NOK</option>
                     <option value="NZD">NZD</option>
                     <option value="PAB">PAB</option>
+                    <option value="ARS">Peso argentino</option>
+                    <option value="CLP">Peso chileno</option>
                     <option value="PEN">PEN</option>
                     <option value="PHP">PHP</option>
                     <option value="PKR">PKR</option>
                     <option value="PLN">PLN</option>
                     <option value="PYG">PYG</option>
+                    <option value="BRL">Real brasileiro</option>
+                    <option value="CNY">Remimbi</option>
                     <option value="RON">RON</option>
                     <option value="RUB">RUB</option>
                     <option value="SAR">SAR</option>
@@ -68,7 +70,7 @@
                     <option value="TRY">TRY</option>
                     <option value="TWD">TWD</option>
                     <option value="UAH">UAH</option>
-                    <option value="USD">USD</option>
+                    <option value="USD">Dólar americano</option>
                     <option value="UYU">UYU</option>
                     <option value="VND">VND</option>
                     <option value="ZAR">ZAR</option>
@@ -76,13 +78,8 @@
                 <input type="number" name="" id="montante_convert" value="1">
             </div>
             <button id="trocar">&#8596;</button>
-            <div class="moedas">
+            <div class="convert-container-right">
                 <select name="" id="moedas_result">
-                    <option value="AED">AED</option>
-                    <option value="ARS">ARS</option>
-                    <option value="AUD">AUD</option>
-                    <option value="BGN">BGN</option>
-                    <option value="BRL">BRL</option>
                     <option value="BSD">BSD</option>
                     <option value="CAD">CAD</option>
                     <option value="CHF">CHF</option>
@@ -91,9 +88,12 @@
                     <option value="COP">COP</option>
                     <option value="CZK">CZK</option>
                     <option value="DKK">DKK</option>
+                    <option value="AED">Dirham dos Emirados Árabes Unidos</option>
+                    <option value="USD" selected>Dólar americano</option>
+                    <option value="AUD">Dolár australiano</option>
                     <option value="DOP">DOP</option>
                     <option value="EGP">EGP</option>
-                    <option value="EUR">EUR</option>
+                    <option value="EUR">Euro</option>
                     <option value="FJD">FJD</option>
                     <option value="GBP">GBP</option>
                     <option value="GTQ">GTQ</option>
@@ -107,16 +107,19 @@
                     <option value="JPY">JPY</option>
                     <option value="KRW">KRW</option>
                     <option value="KZT">KZT</option>
+                    <option value="BGN">Lev búlgaro</option>
                     <option value="MXN">MXN</option>
                     <option value="MYR">MYR</option>
                     <option value="NOK">NOK</option>
                     <option value="NZD">NZD</option>
                     <option value="PAB">PAB</option>
+                    <option value="ARS">Peso argentino</option>
                     <option value="PEN">PEN</option>
                     <option value="PHP">PHP</option>
                     <option value="PKR">PKR</option>
                     <option value="PLN">PLN</option>
                     <option value="PYG">PYG</option>
+                    <option value="BRL">Real brasileiro</option>
                     <option value="RON">RON</option>
                     <option value="RUB">RUB</option>
                     <option value="SAR">SAR</option>
@@ -126,7 +129,6 @@
                     <option value="TRY">TRY</option>
                     <option value="TWD">TWD</option>
                     <option value="UAH">UAH</option>
-                    <option value="USD" selected>USD</option>
                     <option value="UYU">UYU</option>
                     <option value="VND">VND</option>
                     <option value="ZAR">ZAR</option>
@@ -137,6 +139,7 @@
                 <div class="valor" id="valor"></div>
             </div>
         </div>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
