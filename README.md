@@ -3,3 +3,5 @@ um conversor de moeda usando html, css, JavaScript e exchange rates API para con
 saiba a cotação real e atualizada de diversar moedas e faça a converção para a moeda desejada selecionando-as.
 
 Provedor do API é https://exchangeratesapi.io/  
+
+Live https://conversor-de-moedas-cfd3b.web.app/
